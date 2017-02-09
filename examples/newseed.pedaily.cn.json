@@ -1,0 +1,43 @@
+{
+  "thread": "2",
+  "retry": "2",
+  "sleep": "800",
+  "maxPageGather": "10",
+  "timeout": "5000",
+  "priority": "0",
+  "siteName": "新芽",
+  "domain": "newseed.pedaily.cn",
+  "startURL": ["http://newseed.pedaily.cn/"],
+  "contentReg": "",
+  "contentXPath": "//div[@id='news-content']/tidyText()",
+  "titleReg": "",
+  "titleXPath": "",
+  "categoryReg": "",
+  "categoryXPath": "",
+  "defaultCategory": "",
+  "urlReg": "http://newseed.pedaily.cn/\\d{6}/\\d+\\.shtml",
+  "charset": "",
+  "publishTimeXPath": "",
+  "publishTimeReg": "",
+  "publishTimeFormat": "yyyy-MM-dd hh:mm",
+  "authorReg": "",
+  "authorXPath": "//h1/tidyText()",
+  "lang": "",
+  "country": "",
+  "callbackURL": [],
+  "userAgent": "Mozilla/5.0 (Windows NT 5.2) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.122 Safari/534.30",
+  "doNLP": true,
+  "gatherFirstPage": true,
+  "needTitle": true,
+  "needContent": false,
+  "needPublishTime": false,
+  "ajaxSite": false,
+  "dynamicFields": [
+    {
+      "regex": "",
+      "xpath": "//h1/tidyText()",
+      "name": "author",
+      "need": false
+    }
+  ]
+}
